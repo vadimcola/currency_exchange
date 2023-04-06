@@ -38,8 +38,8 @@ def main():
     получает и выводит на экран текущий курс валюты от API. Записывает данные в json файл.
     """
     while True:
-        currency = input("Введите название валюты (USD или EUR): ").upper()
-        if currency not in ["USD", "EUR"]:
+        currency = input("Введите название валюты (USD или EUR или KZT): ").upper()
+        if currency not in ["USD", "EUR", "KZT"]:
             print("Некорректный ввод")
             continue
 
